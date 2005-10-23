@@ -1,0 +1,16 @@
+include "SDL.h"
+
+pack Net_Ping
+elem Uint32 time
+
+pack Net_Pong
+elem Uint32 time
+
+pack Net_Chat
+elem Uint32 time
+elem string name
+elem string message
+
+pack Net_Names
+elem string names[-1]
+elem long double triple[3]
