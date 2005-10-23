@@ -1,6 +1,6 @@
 #include "t1.h"
 #include <sstream>
-#include "../../hexstream/hexstream.h"
+#include "hexstream.h"
 
 using namespace std;
 using namespace t1;
